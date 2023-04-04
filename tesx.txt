@@ -1,0 +1,24 @@
+
+
+paste on 
+
+localhost:7000/replace_html
+
+ pass the data throgh postman 
+
+{
+    "title":"Hello World",
+    "description":"Hey This is Me",
+    "content":"Hey This is Me!",
+    "author":"Sarovar shaikh!",
+    "date":"04/04/2023"
+}
+
+
+Result like
+
+<h1>Hello World</h1>
+<p>Hey This is Me</p>
+<div>Hey This is Me!</div>
+<h2>Sarovar shaikh!</h2>
+<span>Mon Apr 04 2023 00:00:00 GMT+0530 (India Standard Time)</span>
